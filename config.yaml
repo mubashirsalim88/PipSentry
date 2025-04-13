@@ -1,0 +1,12 @@
+# YAML config for pairs, firms, hyperparameters
+pair: EURUSD
+timeframe: 1H
+initial_balance: 10000
+challenge:
+  profit_target: 0.08
+  daily_loss_limit: 0.05
+  max_drawdown: 0.10
+  min_trading_days: 5
+agent:
+  learning_rate: 0.0001
+  timesteps: 500000
